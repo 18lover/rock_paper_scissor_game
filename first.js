@@ -19,8 +19,8 @@ const getCmpChoice=()=>{
 const windeclare=(userWin)=>{
     if(userWin===true){
         userScore++;
-       text.innerText="You Won!";
-       text.style.backgroundColor="green"
+        text.innerText="You Won!";
+        text.style.backgroundColor="green"
         user.innerText=userScore;
     }
     else{

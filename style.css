@@ -44,7 +44,12 @@ img{
     .choice{
         height: 140px;
     }
-    
+    #comp{
+        font-size: 10px;
+    }
+    #user{
+        font-size: 10px;
+    }    
 }
 
 .score-board{
@@ -72,6 +77,6 @@ img{
     border: 2px solid black;
 }
 .user-comp{
-    gap: 1rem;
     justify-content: center;
+    gap: 10px;
 }
