@@ -5,34 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone,Paper and Scissor</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
-    <h2>Rock Paper Scissor</h2>
-    <div class="choices">
-        <div class="choice" id="rock">
-            <img src="./images/rock.png" alt="rock">
+    <header>
+        <h2>Rock Paper Scissor</h2>
+    </header>
+    <div class="container-fluid mt-5 d-flex justify-content-center">
+
+        <div class="container d-flex justify-content-center choices ">
+            <div class="row d-flex justify-content-center">
+                <div class="choice col-6 col-md-4" id="rock">
+                    <a><img src="./images/rock.png" alt="rock"></a>
+                </div>
+                <div class="choice col-6 col-md-4" id="paper">
+                    <img src="./images/paper.png" alt="rock">
+                </div>
+                <div class="choice col-6 col-md-4" id="scissor">
+                    <img src="./images/scissors.png" alt="rock">
+                </div>
+            </div>
+
         </div>
-        <div class="choice" id="paper">
-            <img src="./images/paper.png" alt="rock">
-        </div>
-        <div class="choice" id="scissor">
-            <img src="./images/scissors.png" alt="rock">
-        </div>
+
     </div>
-    <div class="score-board">
-        <div class="user-choice">
-            <p>-</p>
-        </div>
-        <div class="user-score">
-            <div id="user">0</div>
-            <p>You</p>
-        </div>
-        <div class="comp-score">
-            <div id="comp">0</div>
-            <p>Comp</p>
-        </div>
-        <div class="cmp-choice">
-            <p>-</p>
+
+    <div class="score-board container-fluid p-0">
+        <div class="container">
+            <div class="row user-comp d-flex">
+                <div class="user d-flex col-6 col-sm-4 row">
+                    <div class="user-choice d-flex align-items-center justify-content-center col-6">
+                        <p>-</p>
+                    </div>
+                    <div class="user-score col-5 col-sm-4">
+                        <div id="user fs-5">0</div>
+                        <p class="fs-6">You</p>
+                    </div>
+                </div>
+                <div class="comp d-flex col-5 col-sm-4 row">
+                    <div class="comp-score col-6">
+                        <div id="comp fs-5">0</div>
+                        <p class="fs-6">Comp</p>
+                    </div>
+                    <div class="cmp-choice col-6 d-flex align-items-center justify-content-center">
+                        <p>-</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -63,8 +63,6 @@ const playGame=(userChoice)=>{
     user_Choice.innerText=userChoice;
     cmp_Choice.innerText=cmpChoice;
     user_Choice.style.fontSize="1rem";
-    user_Choice.style.backgroundColor="bisque";
-    cmp_Choice.style.backgroundColor="bisque"
     cmp_Choice.style.fontSize="1rem"
 }
 
