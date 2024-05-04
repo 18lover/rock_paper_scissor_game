@@ -10,6 +10,9 @@ header{
     height: 3rem;
     text-align: center;
     line-height: 3rem;
+    h2{
+        line-height: 3rem;
+    }
 }
 .choices{
     display: flex;
@@ -45,10 +48,10 @@ img{
         height: 140px;
     }
     #comp{
-        font-size: 10px;
+        font-size: 50px;
     }
     #user{
-        font-size: 10px;
+        font-size: 50px;
     }    
 }
 
